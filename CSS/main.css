@@ -1,0 +1,229 @@
+* {
+    box-sizing: border-box;
+}
+                                /* Заголовок в меню */
+strong {
+    color: #000000;
+}
+.menu-header {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    font-size: 36px;
+}
+.span {
+    color: rgb(252, 0, 218);
+}
+                                  /* Главное меню */
+.section-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /*border: 1px solid red;*/
+    height: 60px; 
+}
+.menu, .menu5 {
+    color: #464646;
+}
+.menu5 {
+    margin-right: 10px;
+}
+.menu5:hover {
+    color: rgb(252, 0, 218);
+    text-decoration: initial;
+}
+.menu:hover {
+    color: rgb(252, 0, 218);
+    text-decoration: initial;
+}
+                                      /* Картинка в меню */
+.section-market {
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+                                    /*Самый главный заголовок*/
+h1 {
+    font-size: 56px;
+    color: #333333;
+    font-family: BeautyMountainsPersonalUse, AdobeInvisFont, TimesNewRomanPSMT, MyriadPro-Regular;
+}
+                                  /*Описание под главным заголовоком*/
+p {
+    font-size: 18px;
+    font-family: Poppins-Regular,AdobeInvisFont,MyriadPro-Regular;
+    color: #454545;
+}
+                                      /*Кнопка в главном меню*/
+.row-btn {
+    background-color: #F02995;
+    border: none;
+    color: #FFFFFF;
+    padding: 10px 35px;
+}
+.row-main-header {
+    display: flex;
+    flex-wrap: wrap;
+}
+.row-btn:hover {
+    background-color: #ff008c;
+}
+                                            /*Вторая строка*/
+.row {
+    display: flex;
+    align-items: center;
+}
+                                          /*Картинка на главном экране*/
+.row-img-1 {
+    width: 570px;
+    height: 500px;
+    border: 2px solid #ff008c;
+    border-radius: 50%;
+    /*border: 2px solid red;*/
+}
+                                        /*Три кубика под картинкой*/
+.row-box {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    /*border: 1px solid red;*/
+    margin-bottom: 70px;
+}
+.box1 {
+    width: 100px;
+    height: 100px;
+    background-color: #ff008c49;
+}
+.box2 {
+    width: 100px;
+    height: 100px;
+    background-color: #ff008c98;
+}
+.box3 {
+    width: 100px;
+    height: 100px;
+    background-color: #ff008c;
+}
+                          /*Описание чего-то, второй экран*/
+.main-box1 {
+    width: 400px;
+    height: 250px;
+    background-color: #ff008c;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 20px;
+    color: #fff;
+}
+.main-btn {
+    padding: 10px 35px;
+    background-color: #fff;
+    border: 1px solid #ff008c;
+    text-align: center;
+}
+.main-btn:hover {
+    background-color: #ff008c;
+    color: #fff;
+}
+h2 {
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+.main-text {
+    margin-bottom: 50px;
+}
+.qwerty {
+    font-size: 13px;
+}
+.row-box-header {
+    display: flex;
+    flex-wrap: wrap;
+}
+                                      /*Третий экран*/
+.footer-header {
+    font-size: 24px;
+}
+.footer-text, .footer-text2 {
+    font-size: 13px;
+    font-weight: 200;
+}
+.row-nmenu {
+    margin-top: 30px;
+    border-top: 1px solid rgb(0, 0, 0);
+}
+
+@media screen and (max-width: 768px) {
+
+.row-container {
+    display: block;
+}
+body {
+    max-width: 768px;
+}
+.main-box1 {
+    width: 350px;
+    height: 200px;
+    margin: 0 auto;
+    padding-top: 85px;
+}
+.row-box {
+    display: flex;
+    justify-content: space-between;
+}
+.box1 {
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: #ff008c;
+}
+.box2 {
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: #ff008c6c;
+}
+.box3 {
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: #ff008c2f;
+}
+.main-header {
+    text-align: center;
+}
+
+.section-market {
+    display: flex;
+    justify-content: flex-end;
+}
+.row-img-1 {
+    margin-top: 30px;
+    width: 320px;
+    height: 280px;
+}
+.qwertyu {
+    text-align: center;
+}       
+.button {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+.main-btn {
+    padding: 20px 70px;
+}
+.footer-header2 {
+    margin-left: 90px;
+}
+.menu5 {
+    font-size: 20px;
+}
+.market {
+    width: 50px;
+    height: 50px;
+}
+.section-menu {
+    border-top: 1px solid rgb(218, 0, 207);
+    border-bottom: 1px solid rgb(218, 3, 189);
+    height: 50px;
+}
+}
